@@ -1,0 +1,76 @@
+*{
+    font-family: "Exo 2", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #070F2B;
+}
+
+#container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    /* border: 0.5rem solid grey; */
+    padding: 1rem;
+    width:30%;
+    height: 30%;
+    margin: 0 auto;
+    /* margin: auto 0; */
+    
+}
+
+#btns{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 7rem;
+    height: 2rem;
+    font-size: large;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    font-weight:bolder;
+    border: none;
+    
+}
+
+input{
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    border:2px solid white;
+    outline: none;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    text-transform: capitalize;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#header h3{
+    font-weight: bolder;
+    font-size: 1.7rem;
+
+}
+
+.rowlist{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
